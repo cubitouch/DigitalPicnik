@@ -1,0 +1,5 @@
+﻿<cf:project defaultNamespace="DigitalPicnik" xmlns:cf="http://www.softfluent.com/codefluent/2005/1">
+  <cf:producer name="SQL Azure" typeName="CodeFluent.Producers.SqlServer.SqlAzureProducer, CodeFluent.Producers.SqlServer">
+    <cf:configuration targetDirectory="..\DigitalPicnik.Persistence" cfx:targetProject="..\DigitalPicnik.Persistence\DigitalPicnik.Persistence.sqlproj" cfx:targetProjectLayout="Update, DontRemove" onlineConnectionString="" produceOnline="true" produceLocal="false" xmlns:cfx="http://www.softfluent.com/codefluent/modeler/2008/1" />
+  </cf:producer>
+</cf:project>

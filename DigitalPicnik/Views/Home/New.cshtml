@@ -1,0 +1,38 @@
+﻿@model List
+@{
+}
+@using (Html.BeginForm("New", "Home", FormMethod.Post))
+{
+    <div class="mdl-grid">
+        <input type="hidden" name="id" value="@(Model != null ? Model.Id : new Guid())" />
+        <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--12-col">
+            <input class="mdl-textfield__input" type="text" id="title" name="title" value="@(Model != null ? Model.Title : "")">
+            <label class="mdl-textfield__label" for="title" id="titleLabel">Titre</label>
+            <span class="mdl-textfield__error">Obligatoire</span>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--12-col">
+            <input class="mdl-textfield__input" type="text" id="description" name="description" value="@(Model != null ? Model.Description : "")">
+            <label class="mdl-textfield__label" for="description" id="descriptionLabel">Description</label>
+            <span class="mdl-textfield__error">Obligatoire</span>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-cell mdl-cell--12-col">
+            <button type="submit" class="mdl-button mdl-js-button mdl-button--raised mdl-button--accent">@ViewBag.ActionLabel</button>
+        </div>
+    </div>
+}
+
+<script>
+    $(function () {
+        $('form').submit(function () {
+            $('#title').closest('.mdl-textfield').removeClass('is-invalid');
+            if ($('#title').val() == '')
+                $('#title').closest('.mdl-textfield').addClass('is-invalid');
+            $('#description').closest('.mdl-textfield').removeClass('is-invalid');
+            if ($('#description').val() == '')
+                $('#description').closest('.mdl-textfield').addClass('is-invalid');
+
+            if ($('.mdl-textfield.is-invalid').length > 0 || $('#title').val() == '' || $('#description').val() == '')
+                return false;
+        });
+    });
+</script>

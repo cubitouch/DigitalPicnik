@@ -1,0 +1,123 @@
+﻿@model List
+@{
+//ViewBag.Title = "Edit";
+}
+<ul id="ItemList" class="mdl-list"></ul>
+<button id="AddLine" class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
+    <i class="material-icons">add</i>
+</button>
+<button id="Info" class="mdl-button mdl-js-button mdl-button--fab">
+    <i class="material-icons">info</i>
+</button>
+<a id="Edit" class="mdl-button mdl-js-button mdl-button--fab" href="/Home/EditInfo/@Model.Id">
+    <i class="material-icons">edit</i>
+</a>
+<div id="snackbar-description" class="mdl-js-snackbar mdl-snackbar">
+    <div class="mdl-snackbar__text"></div>
+    <button class="mdl-snackbar__action" type="button"></button>
+</div>
+<script>
+    var list = new Array();
+    @foreach (Item item in Model.Items)
+    {
+        <text>list.push({ Id: "@item.Id", Name: "@item.Name.Replace("\"", "\\\"")", Label: "@item.Label.Replace("\"","\\\"")" });</text>
+    }
+    //console.log(list);
+    function displayList() {
+        var htmlList = '';
+        for (var i = 0; i < list.length; i++) {
+            htmlList += '<li class="mdl-list__item mdl-list__item--two-line" data-id="' + list[i].Id + '">';
+            htmlList += '   <span class="mdl-list__item-primary-content">';
+            htmlList += '       <i class="material-icons mdl-list__item-avatar">person</i>';
+            htmlList += '       <span>' + (list[i].Name != null && list[i].Name != '' ? list[i].Name : '&nbsp;') + '</span>';
+            htmlList += '       <span class="mdl-list__item-sub-title">' + (list[i].Label != null && list[i].Label != '' ? list[i].Label : '&nbsp;') + '</span>';
+            htmlList += '       <span class="close">';
+            htmlList += '           <div class="mdl-textfield mdl-js-textfield">';
+            htmlList += '               <input class="mdl-textfield__input" type="text" id="name' + list[i].Id + '" value="' + (list[i].Name != null ? list[i].Name : '') + '">';
+            htmlList += '               <label class="mdl-textfield__label" for="name' + list[i].Id + '">Nom / prénom...</label>';
+            htmlList += '               <span class="mdl-textfield__error">Lettres et espaces uniquement</span>';
+            htmlList += '           </div>';
+            htmlList += '           <div class="mdl-textfield mdl-js-textfield">';
+            htmlList += '               <input class="mdl-textfield__input" type="text" id="label' + list[i].Id + '" value="' + (list[i].Label != null ? list[i].Label : '') + '">';
+            htmlList += '               <label class="mdl-textfield__label" for="label' + list[i].Id + '">Description...</label>';
+            htmlList += '               <span class="mdl-textfield__error">Obligatoire</span>';
+            htmlList += '           </div>';
+            htmlList += '           <button class="mdl-button mdl-js-button mdl-button--raised delete"><i class="material-icons">delete</i></button>';
+            htmlList += '           <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored save"><i class="material-icons">done</i></button>';
+            htmlList += '       </span>';
+            htmlList += '   </span>';
+            htmlList += '   <span class="mdl-list__item-secondary-content">';
+            htmlList += '       <a class="mdl-list__item-secondary-action open" href="#"><i class="material-icons">visibility</i></a>';
+            htmlList += '       <a class="mdl-list__item-secondary-action close" href="#"><i class="material-icons">visibility_off</i></a>';
+            htmlList += '   </span>';
+            htmlList += '</li>';
+        }
+        $('#ItemList').html(htmlList);
+        $('#ItemList li').click(function () {
+            $('#ItemList li').removeClass('active');
+            if (!$(this).hasClass('active')) {
+                $(this).addClass('active');
+            }
+        });
+        $('#ItemList li .mdl-list__item-secondary-action.close').click(function () {
+            $(this).closest('li').removeClass("active");
+            return false;
+        });
+        $('#ItemList li .delete').click(function () {
+            var container = $(this).closest('li');
+            var id = $(container).data("id");
+            $.post('/Home/DeleteLine', { id: id }, function (data) {
+                list = data;
+                displayList();
+            });
+            return false;
+        });
+        $('#ItemList li .save').click(function () {
+            var container = $(this).closest('li');
+            var id = $(container).data("id");
+            var name = $(container).find('#name' + id).val();
+            var label = $(container).find('#label' + id).val();
+
+            $(container).find('#name' + id).closest('.mdl-textfield').removeClass('is-invalid');
+            $(container).find('#label' + id).closest('.mdl-textfield').removeClass('is-invalid');
+            if (name == '')
+                $(container).find('#name' + id).closest('.mdl-textfield').addClass('is-invalid');
+            if (label == '')
+                $(container).find('#label' + id).closest('.mdl-textfield').addClass('is-invalid');
+
+            if ($(container).find('.mdl-textfield.is-invalid').length == 0) {
+                $.post('/Home/UpdateLine', { id: id, name: name, label: label }, function (data) {
+                    list = data;
+                    displayList();
+                });
+            }
+
+            return false;
+        });
+        $('#ItemList .mdl-textfield').each(function (i, el) {
+            componentHandler.upgradeElement(el);
+        });
+    }
+    $(function () {
+        displayList();
+        $('#AddLine').click(function () {
+            $.post('/Home/AddLine', { id: "@Model.Id" }, function (data) {
+                list = data;
+                //console.log(list);
+                displayList();
+            });
+        });
+
+        $('#Info').click(function () {
+            var snackbarContainer = document.querySelector('#snackbar-description');
+
+            var data = {
+                message: '@Html.Raw(Model.Description.Replace("'", "\\'"))',
+                timeout: 5000,
+                actionHandler: function (event) { $(snackbarContainer).removeClass('mdl-snackbar--active'); },
+                actionText: 'Ok'
+            };
+            snackbarContainer.MaterialSnackbar.showSnackbar(data);
+        });
+    });
+</script>

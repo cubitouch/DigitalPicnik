@@ -1,0 +1,53 @@
+﻿#AddLine {
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+    }
+
+    #Info {
+        position: fixed;
+        right: 80px;
+        bottom: 20px;
+    }
+
+    #Edit {
+        position: fixed;
+        right: 140px;
+        bottom: 20px;
+    }
+
+    #ItemList {
+    }
+
+        #ItemList li:first-child {
+            border-top: 1px solid rgba(0,0,0,.1);
+        }
+
+        #ItemList li {
+            border-bottom: 1px solid rgba(0,0,0,.1);
+        }
+
+            #ItemList li.active {
+                background-color: rgba(0,0,0,.1);
+                height: auto;
+            }
+
+                #ItemList li.active .mdl-list__item-primary-content {
+                    height: auto;
+                }
+
+    .close {
+        display: none;
+    }
+
+    .active .close {
+        display: block;
+    }
+
+    .active .open {
+        display: none;
+    }
+
+    .page-content {
+        padding-bottom: 80px;
+    }

@@ -1,0 +1,22 @@
+﻿<cf:project defaultNamespace="DigitalPicnik" xmlns:cf="http://www.softfluent.com/codefluent/2005/1" xmlns:cfx="http://www.softfluent.com/codefluent/modeler/2008/1" xmlns:cfom="http://www.softfluent.com/codefluent/producers.model/2005/1" xmlns:cfaz="http://www.softfluent.com/codefluent/producers.sqlazure/2011/1" createDefaultMethodForms="true" createDefaultApplication="false" createDefaultHints="false">
+  <cf:import path="Default.Surface.cfp" />
+  <cf:import path="SQLAzure.cfp" overwrite="false" />
+  <cf:producer name="Business Object Model (BOM)" typeName="CodeFluent.Producers.CodeDom.CodeDomProducer, CodeFluent.Producers.CodeDom">
+    <cf:configuration compileWithVisualStudio="true" compile="false" codeDomProviderTypeName="CSharp" targetDirectory="..\DigitalPicnik.Business" cfx:targetProject="..\DigitalPicnik.Business\DigitalPicnik.Business.csproj" cfx:targetProjectLayout="Update" />
+  </cf:producer>
+  <cf:entity name="List" namespace="DigitalPicnik" categoryPath="/DigitalPicnik">
+    <cf:property name="Id" key="true" />
+    <cf:property name="Title" />
+    <cf:property name="Description" />
+    <cf:property name="Items" persistenceDefaultLoadValue="" typeName="{0}.ItemCollection" relationPropertyName="List" />
+  </cf:entity>
+  <cf:entity name="Item" namespace="DigitalPicnik" categoryPath="/DigitalPicnik">
+    <cf:property name="Id" key="true" />
+    <cf:property name="Label" />
+    <cf:property name="Quantity" typeName="int" />
+    <cf:property name="Name" />
+    <cf:property name="List" typeName="{0}.List" relationPropertyName="Items">
+      <cf:attribute name="System.Web.Script.Serialization.ScriptIgnore" class="" />
+    </cf:property>
+  </cf:entity>
+</cf:project>

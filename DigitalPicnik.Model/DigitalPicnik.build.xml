@@ -1,0 +1,340 @@
+<build startDate="2016-08-18T17:40:57.7776+02:00" commandLine="&quot;C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler\CodeFluent.Build4.exe&quot; &quot;C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Model\DigitalPicnik.cfp&quot; /Log:&quot;C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Model\DigitalPicnik.build.xml&quot; /hostpid:21656 /Results:&quot;C:\Users\HCA\AppData\Local\Temp\DigitalPicnik.cfp.oop&quot; /DoNotCreateReportsOnException /DoNotShowReportsOnException /NoFlashOnError " machineName="SF114" osVersion="Microsoft Windows NT 6.2.9200.0" currentDirectory="C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Model" user="SFINTERNAL\hca" clrVersion="4.0.30319.42000" licenseUsage="Build Expirable [Date:8/25/2016 12:00:00 AM][Licensee:hca@softfluent.com (SoftFluent)][Maximum Entities:999999]" processorCount="8" workingSet="23699456 bytes" bitness="32bits" wow64="True" optionsFlags="None" parentProcess="C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\devenv.exe" endDate="2016-08-18T17:41:03.1592+02:00" totalElapsedTime="00:00:05.3820019" numberOfEntities="2" numberOfEnumerations="0" numberOfRelations="2">
+  <assemblies>
+    <assembly fullName="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" codeBase="file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll" location="C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorlib.dll" buildVersion="4.6.1055.0" fileVersion="4.6.1055.0 built by: NETFXREL2" productVersion="4.6.1055.0" />
+    <assembly fullName="CodeFluent.Build4, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1bb6d7cccf1045ec" codeBase="file:///C:/Program Files (x86)/SoftFluent/CodeFluent/Modeler/CodeFluent.Build4.exe" location="C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler\CodeFluent.Build4.exe" buildVersion="1.0.61214.0841" fileVersion="1.0.61214.0841" productVersion="1.0.61214.0841" />
+    <assembly fullName="CodeFluent.Model, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1bb6d7cccf1045ec" codeBase="file:///C:/Program Files (x86)/SoftFluent/CodeFluent/Modeler/CodeFluent.Model.DLL" location="C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler\CodeFluent.Model.dll" buildVersion="1.0.61214.0841" fileVersion="1.0.61214.0841" productVersion="1.0.61214.0841" />
+    <assembly fullName="CodeFluent.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1bb6d7cccf1045ec" codeBase="file:///C:/Program Files (x86)/SoftFluent/CodeFluent/Modeler/CodeFluent.Runtime.DLL" location="C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler\CodeFluent.Runtime.dll" buildVersion="1.0.61214.0841" fileVersion="1.0.61214.0841" productVersion="1.0.61214.0841" />
+    <assembly fullName="System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" codeBase="file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll" location="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System\v4.0_4.0.0.0__b77a5c561934e089\System.dll" buildVersion="4.6.1075.0" fileVersion="4.6.1075.0 built by: NETFXREL3STAGE" productVersion="4.6.1075.0" />
+    <assembly fullName="CodeFluent.Model.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1bb6d7cccf1045ec" codeBase="file:///C:/Program Files (x86)/SoftFluent/CodeFluent/Modeler/CodeFluent.Model.Common.DLL" location="C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler\CodeFluent.Model.Common.dll" buildVersion="1.0.61214.0841" fileVersion="1.0.61214.0841" productVersion="1.0.61214.0841" />
+    <assembly fullName="System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" codeBase="file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll" location="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Xml\v4.0_4.0.0.0__b77a5c561934e089\System.Xml.dll" buildVersion="4.6.1064.2" fileVersion="4.6.1064.2 built by: NETFXREL3STAGE" productVersion="4.6.1064.2" />
+    <assembly fullName="System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" codeBase="file:///C:/Windows/Microsoft.Net/assembly/GAC_32/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll" location="C:\Windows\Microsoft.Net\assembly\GAC_32\System.Data\v4.0_4.0.0.0__b77a5c561934e089\System.Data.dll" buildVersion="4.6.1082.0" fileVersion="4.6.1082.0 built by: NETFXREL3STAGE" productVersion="4.6.1082.0" />
+    <assembly fullName="System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" codeBase="file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll" location="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Core\v4.0_4.0.0.0__b77a5c561934e089\System.Core.dll" buildVersion="4.6.1055.0" fileVersion="4.6.1055.0 built by: NETFXREL2" productVersion="4.6.1055.0" />
+    <assembly fullName="CodeFluent.Producers.CodeDom, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1bb6d7cccf1045ec" codeBase="file:///C:/Program Files (x86)/SoftFluent/CodeFluent/Modeler/CodeFluent.Producers.CodeDom.DLL" location="C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler\CodeFluent.Producers.CodeDom.dll" buildVersion="1.0.61214.0841" fileVersion="1.0.61214.0841" productVersion="1.0.61214.0841" />
+    <assembly fullName="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" codeBase="file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll" location="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll" buildVersion="4.6.1055.0" fileVersion="4.6.1055.0 built by: NETFXREL2" productVersion="4.6.1055.0" />
+    <assembly fullName="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" codeBase="file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll" location="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Drawing\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll" buildVersion="4.6.1068.2" fileVersion="4.6.1068.2 built by: NETFXREL3STAGE" productVersion="4.6.1068.2" />
+    <assembly fullName="SoftFluent.License, Version=1.0.0.0, Culture=neutral, PublicKeyToken=330d9b6ea5e30055" codeBase="file:///C:/Program Files (x86)/SoftFluent/CodeFluent/Modeler/SoftFluent.License.DLL" location="C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler\SoftFluent.License.dll" buildVersion="1.0.0.0" fileVersion="3.0.0.0" productVersion="1.0.0.0" />
+    <assembly fullName="System.Management, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" codeBase="file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Management/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Management.dll" location="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Management\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Management.dll" buildVersion="4.6.1055.0" fileVersion="4.6.1055.0 built by: NETFXREL2" productVersion="4.6.1055.0" />
+    <assembly fullName="System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" codeBase="file:///C:/Windows/Microsoft.Net/assembly/GAC_32/System.Web/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Web.dll" location="C:\Windows\Microsoft.Net\assembly\GAC_32\System.Web\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Web.dll" buildVersion="4.6.1069.1" fileVersion="4.6.1069.1 built by: NETFXREL3STAGE" productVersion="4.6.1069.1" />
+    <assembly fullName="CodeFluent.Producers.SqlServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1bb6d7cccf1045ec" codeBase="file:///C:/Program Files (x86)/SoftFluent/CodeFluent/Modeler/CodeFluent.Producers.SqlServer.DLL" location="C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler\CodeFluent.Producers.SqlServer.dll" buildVersion="1.0.61214.0841" fileVersion="1.0.61214.0841" productVersion="1.0.61214.0841" />
+    <assembly fullName="CodeFluent.Runtime.Database, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1bb6d7cccf1045ec" codeBase="file:///C:/Program Files (x86)/SoftFluent/CodeFluent/Modeler/CodeFluent.Runtime.Database.DLL" location="C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler\CodeFluent.Runtime.Database.dll" buildVersion="1.0.61214.0841" fileVersion="1.0.61214.0841" productVersion="1.0.61214.0841" />
+    <assembly fullName="System.Configuration, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" codeBase="file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll" location="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Configuration\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll" buildVersion="4.6.1055.0" fileVersion="4.6.1055.0 built by: NETFXREL2" productVersion="4.6.1055.0" />
+    <assembly fullName="System.Transactions, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" codeBase="file:///C:/Windows/Microsoft.Net/assembly/GAC_32/System.Transactions/v4.0_4.0.0.0__b77a5c561934e089/System.Transactions.dll" location="C:\Windows\Microsoft.Net\assembly\GAC_32\System.Transactions\v4.0_4.0.0.0__b77a5c561934e089\System.Transactions.dll" buildVersion="4.6.1055.0" fileVersion="4.6.1055.0 built by: NETFXREL2" productVersion="4.6.1055.0" />
+    <assembly fullName="CodeFluent.Runtime.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1bb6d7cccf1045ec" codeBase="file:///C:/Program Files (x86)/SoftFluent/CodeFluent/Modeler/CodeFluent.Runtime.Web.DLL" location="C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler\CodeFluent.Runtime.Web.dll" buildVersion="1.0.61214.0841" fileVersion="1.0.61214.0841" productVersion="1.0.61214.0841" />
+    <assembly fullName="CF_25311015811463814236.tplcs, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" codeBase="file:///C:/Users/HCA/AppData/Local/Temp/CFTemplating.Temp4.0.30319.42000/70841/CF_25311015811463814236.tplcs.dll" location="C:\Users\HCA\AppData\Local\Temp\CFTemplating.Temp4.0.30319.42000\70841\CF_25311015811463814236.tplcs.dll" fileVersion="0.0.0.0" productVersion="0.0.0.0" />
+    <assembly fullName="System.EnterpriseServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" codeBase="file:///C:/Windows/Microsoft.Net/assembly/GAC_32/System.EnterpriseServices/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.EnterpriseServices.dll" location="C:\Windows\Microsoft.Net\assembly\GAC_32\System.EnterpriseServices\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.EnterpriseServices.dll" buildVersion="4.0.30319.33440" fileVersion="4.0.30319.33440 built by: FX45W81RTMREL" productVersion="4.0.30319.33440" />
+    <assembly fullName="System.Numerics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" codeBase="file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll" location="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Numerics\v4.0_4.0.0.0__b77a5c561934e089\System.Numerics.dll" buildVersion="4.6.1055.0" fileVersion="4.6.1055.0 built by: NETFXREL2" productVersion="4.6.1055.0" />
+  </assemblies>
+  <variables>
+    <variable name="CF_TEMPLATES_PATH" value="C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler\Templates" />
+    <variable name="CF_BUILD_NUMBER" value="70841" />
+    <variable name="CF_DEFAULT_PERSISTENCE_SERVER" value="SF114" />
+    <variable name="CF_PATTERNS_PATH" value="C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler\Patterns" />
+    <variable name="CF_CURRENT_PATH" value="C:\Program Files (x86)\SoftFluent\CodeFluent\Modeler" />
+    <variable name="CF_BUILD_CONFIGURATION" value="RELEASE" />
+  </variables>
+  <generatedFiles>
+    <producer name="Business Object Model (BOM)" generatedFilesCount="8" />
+    <producer name="SQL Azure" generatedFilesCount="7" />
+  </generatedFiles>
+  <project>
+    <imports>
+      <cf:import path="Default.Surface.cfp" xmlns:cf="http://www.softfluent.com/codefluent/2005/1" />
+      <cf:import path="SQLAzure.cfp" overwrite="false" xmlns:cf="http://www.softfluent.com/codefluent/2005/1" />
+    </imports>
+    <parts>
+      <part filePath="C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Model\DigitalPicnik.cfp" isRootModel="true" relativePath="DigitalPicnik.cfp" />
+      <part filePath="C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Model\Default.Surface.cfp" relativePath="Default.Surface.cfp" />
+      <part filePath="C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Model\SQLAzure.cfp" relativePath="SQLAzure.cfp" />
+    </parts>
+  </project>
+  <producer name="Business Object Model (BOM)">
+    <event type="ProducerStart" elapsedTime="00:00:00.0002033">
+      <name>Business Object Model (BOM)</name>
+      <instance>CodeFluent.Model.Producer</instance>
+    </event>
+    <event type="ParameterValue" name="AllowExternalCode" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="AllowSnippets" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="ApplicationName" value="default" />
+    <event type="ParameterValue" name="DumpPath" />
+    <event type="ParameterValue" name="FileCopyFilter" value="*.scc, _cf_md.config" />
+    <event type="ParameterValue" name="FullTargetDirectory" value="C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business" />
+    <event type="ParameterValue" name="IsTargetRelativeToModelDirectory" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="ModelProducerName" />
+    <event type="ParameterValue" name="MustCopyModelFiles" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustSkipFileCopyOnError" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="OutputEncoding" value="utf-8" />
+    <event type="ParameterValue" name="OutputEncodingEmitIdentifier" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="ProductionFlags" value="Default, Overwrite" valueType="CodeFluent.Model.ProductionFlags" />
+    <event type="ParameterValue" name="ProductionVerbosity" value="0" valueType="System.Int32" />
+    <event type="ParameterValue" name="SkipExtensions" value="[^\.]*.scc,_cf_md.config" valueType="System.Collections.ArrayList" />
+    <event type="ParameterValue" name="SkipDirectoryExtensions" valueType="System.Collections.ArrayList" />
+    <event type="ParameterValue" name="TargetFramework" value="4.6" />
+    <event type="ParameterValue" name="TargetBaseNamespace" value="DigitalPicnik" />
+    <event type="ParameterValue" name="TemplateOptions" value="Default" valueType="CodeFluent.Model.Common.Templating.TemplateOptions" />
+    <event type="ParameterValue" name="UseEmptyApplication" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="AssemblyCompileDefaultFileExcludeFilter" value="AssemblyInfo.cs, assemblyversion.cs" />
+    <event type="ParameterValue" name="CodeDomProviderOptions" />
+    <event type="ParameterValue" name="FileExtension" value=".cs" />
+    <event type="ParameterValue" name="LanguageCode" value="CSharp" valueType="CodeFluent.Model.Code.LanguageCode" />
+    <event type="ParameterValue" name="MustAddDebugInfo" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustCompile" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustDelaySign" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustIncludeDebugInformation" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustTreatWarningAsErrors" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="WarningLevel" value="-1" valueType="System.Int32" />
+    <event type="ParameterValue" name="TargetProductionOptions" value="Default" valueType="CodeFluent.Producers.CodeDom.TargetProductionOptions" />
+    <event type="ParameterValue" name="VisualStudioProjectPath" />
+    <event type="ParameterValue" name="IsAssemblyClsCompliant" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustAddDebuggerDisplayAttribute" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustAddDictionaryMethods" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustAddRuntimeDesignAttributes" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustAddRuntimeResourceCheck" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustAppendSchema" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustEmbedModelInRuntimeResource" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustProduceResourcesFiles" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustProduceWebBasicAuthenticationModule" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustProduceWebHandler" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustProduceWebMembershipProvider" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustProduceWebMembershipUser" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustProduceWebProfileProvider" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustProduceWebRoleProvider" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustProduceBitsServer" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustProduceWebTypes" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustUseLegacyStringArrayMode" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="ResourceFileFormat" value="ResX" valueType="CodeFluent.Producers.CodeDom.ResourceFileFormat" />
+    <event type="ParameterValue" name="RuntimePrefix" value="_cf_rt" />
+    <event type="ParameterValue" name="RuntimeResourceBaseName" value="DigitalPicnik.DigitalPicnik" />
+    <event type="ParameterValue" name="FullTargetDirectory" value="C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business" />
+    <event type="FileWrite" elapsedTime="00:00:00.5103714">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\_cf_rt.cs</path>
+      <fileType>RuntimeCode</fileType>
+      <size>8552</size>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0075894">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\_cf_rt.cs</path>
+      <size>8552</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0163242">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\_cf_rt.cs</path>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0137378">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\DigitalPicnik.ResX</path>
+      <fileType>Embedded resource for Invariant Language (Invariant Country) culture</fileType>
+      <size>5911</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0048304">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\DigitalPicnik.ResX</path>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0183914">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\Item.cs</path>
+      <fileType>BaseTypeFile for 'DigitalPicnik.Item'</fileType>
+      <size>34633</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0013799">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\Item.cs</path>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0120408">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\ItemCollection.cs</path>
+      <fileType>BaseTypeFile for 'DigitalPicnik.ItemCollection'</fileType>
+      <size>45018</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0014502">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\ItemCollection.cs</path>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0124670">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\List.cs</path>
+      <fileType>BaseTypeFile for 'DigitalPicnik.List'</fileType>
+      <size>31365</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0015163">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\List.cs</path>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0099041">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\ListCollection.cs</path>
+      <fileType>BaseTypeFile for 'DigitalPicnik.ListCollection'</fileType>
+      <size>37253</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0013593">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\ListCollection.cs</path>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0177885">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\Web\HttpHandler.cs</path>
+      <size>1540</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0056340">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\Web\HttpHandler.cs</path>
+    </event>
+    <event type="Information" message="CodeFluent.Producers.CodeDom.UI.Web.MembershipProviderProducer: No directoryUser entity. Skip production." />
+    <event type="Information" message="CodeFluent.Producers.CodeDom.UI.Web.RoleProviderProducer: No directoryRole entity. Skip production." />
+    <event type="Information" message="CodeFluent.Producers.CodeDom.UI.Web.ProfileProviderProducer: No directoryUser entity. Skip production." />
+    <event type="Information" message="CodeFluent.Producers.CodeDom.UI.Web.BasicAuthenticationModuleProducer: No directoryUser entity. Skip production." />
+    <event type="FileWrite" elapsedTime="00:00:00.0370573">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\Web\BitsServer.cs</path>
+      <fileType>CodeFluent.Producers.CodeDom.UI.Web.BitsServerProducer</fileType>
+      <size>3981</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0012324">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Business\Web\BitsServer.cs</path>
+    </event>
+  </producer>
+  <producer name="SQL Azure">
+    <event type="ProducerStart" elapsedTime="00:00:00.0060616">
+      <name>SQL Azure</name>
+      <instance>CodeFluent.Model.Producer</instance>
+    </event>
+    <event type="ParameterValue" name="ProduceLocal" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="ProduceOnline" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="RunLocalScripts" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="RunOnlineScripts" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="LocalTargetDirectory" value="C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence" />
+    <event type="ParameterValue" name="LocalConnectionString" value="Application Name=DigitalPicnik;server=SF114;database=DigitalPicnik;Integrated Security=true" />
+    <event type="ParameterValue" name="LocalMustSaveInstances" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="LocalMustSaveBlobInstances" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="OnlineTargetDirectory" value="C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence" />
+    <event type="ParameterValue" name="OnlineConnectionString" value="Server=sound-synchro.database.windows.net;Database=digitalpicnik;User ID=soundsynchro;Password=KSpmDp42;Encrypt=false" />
+    <event type="ParameterValue" name="OnlineMustSaveInstances" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="OnlineMustSaveBlobInstances" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="AllowSelectDistinct" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="AppendSchemaToProcedures" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="CommandTimeout" value="0" valueType="System.Int32" />
+    <event type="ParameterValue" name="ConnectionString" value="Server=sound-synchro.database.windows.net;Database=digitalpicnik;User ID=soundsynchro;Password=KSpmDp42;Encrypt=false" />
+    <event type="ParameterValue" name="CurrentCulture" value="en-US" valueType="System.Globalization.CultureInfo" />
+    <event type="ParameterValue" name="CurrentUICulture" value="en-US" valueType="System.Globalization.CultureInfo" />
+    <event type="ParameterValue" name="DecimalPrecision" value="28" valueType="System.Int32" />
+    <event type="ParameterValue" name="DecimalScale" value="13" valueType="System.Int32" />
+    <event type="ParameterValue" name="DefaultUnicodeInstancePrefix" value="N" />
+    <event type="ParameterValue" name="FullTargetDirectory" value="C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence" />
+    <event type="ParameterValue" name="IdentityIncrement" value="1" valueType="System.Int32" />
+    <event type="ParameterValue" name="IdentitySeed" value="1" valueType="System.Int32" />
+    <event type="ParameterValue" name="IdentityTempColumnName" value="_cf_id_temp" />
+    <event type="ParameterValue" name="InstanceProductionCulture" value="en-US" valueType="System.Globalization.CultureInfo" />
+    <event type="ParameterValue" name="IsTargetRelativeToModelDirectory" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MaxColumnSize" value="2147483647" valueType="System.Int32" />
+    <event type="ParameterValue" name="MaximumColumnsPerConstraint" value="16" valueType="System.Int32" />
+    <event type="ParameterValue" name="MustCreateBackups" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustCreateDatabase" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustCreateDiffs" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustDropUnusedColumns" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustForceColumnAlter" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustProduceInstances" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustProduceViews" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustProduceSchemas" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustSaveInstances" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustSaveBlobInstances" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustSkipCrossStoreRelations" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustUpdateDatabase" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustUpdateProcedures" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustUpdateRuntime" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustUpdateSchema" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustForceUpdateViews" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustUseLocalTransactions" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustUseLegacyStringArrayMode" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="MustUseLegacyBlobChunkMode" value="False" valueType="System.Boolean" />
+    <event type="ParameterValue" name="OutputEncoding" value="utf-8" />
+    <event type="ParameterValue" name="OutputEncodingEmitIdentifier" value="True" valueType="System.Boolean" />
+    <event type="ParameterValue" name="ProcedureProductionCulture" value="en-US" valueType="System.Globalization.CultureInfo" />
+    <event type="ParameterValue" name="ProductionFlags" value="None" valueType="CodeFluent.Model.ProductionFlags" />
+    <event type="ParameterValue" name="ProductionOptionsFlags" value="None" valueType="CodeFluent.Model.ProductionOptionsFlags" />
+    <event type="ParameterValue" name="SaveUserName" value="SYSTEM_USER" />
+    <event type="ParameterValue" name="StoreName" />
+    <event type="ParameterValue" name="TargetVersion" value="Sql2008, Sql2012, Sql2014, SqlAzure" valueType="CodeFluent.Producers.SqlServer.TargetVersion" />
+    <event type="FileCopy" elapsedTime="00:00:00.3258840">
+      <target>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_runtime.sql</target>
+      <source>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_runtime.sql.tmp</source>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0041792">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_runtime.sql</path>
+      <fileType>RuntimeScript</fileType>
+      <size>1696</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0001585">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_runtime.sql</path>
+    </event>
+    <event type="ParameterValue" name="SqlServerVersion" value="12.0.2000.8" />
+    <event type="FileCopy" elapsedTime="00:00:00.8471419">
+      <target>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_tables.sql</target>
+      <source>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_tables.sql.tmp</source>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0056268">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_tables.sql</path>
+      <fileType>TablesScript</fileType>
+      <size>3688</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0002391">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_tables.sql</path>
+    </event>
+    <event type="FileCopy" elapsedTime="00:00:00.7042559">
+      <target>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_table_diffs.sql</target>
+      <source>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_table_diffs.sql.tmp</source>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0050151">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_table_diffs.sql</path>
+      <fileType>TablesDiffsScript</fileType>
+      <size>2224</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0002151">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_table_diffs.sql</path>
+    </event>
+    <event type="FileCopy" elapsedTime="00:00:00.1198647">
+      <target>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_procedures.sql</target>
+      <source>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_procedures.sql.tmp</source>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0024492">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_procedures.sql</path>
+      <fileType>ProceduresScript</fileType>
+      <size>10783</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0001178">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_procedures.sql</path>
+    </event>
+    <event type="FileCopy" elapsedTime="00:00:00.0619932">
+      <target>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_relations_drop.sql</target>
+      <source>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_relations_drop.sql.tmp</source>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0022929">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_relations_drop.sql</path>
+      <fileType>RelationsDropScript</fileType>
+      <size>499</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0001265">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_relations_drop.sql</path>
+    </event>
+    <event type="FileCopy" elapsedTime="00:00:00.0127665">
+      <target>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_relations_add.sql</target>
+      <source>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_relations_add.sql.tmp</source>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0022971">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_relations_add.sql</path>
+      <fileType>RelationsAddScript</fileType>
+      <size>437</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0000764">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_relations_add.sql</path>
+    </event>
+    <event type="FileCopy" elapsedTime="00:00:00.0270445">
+      <target>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_instances.sql</target>
+      <source>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_instances.sql.tmp</source>
+    </event>
+    <event type="FileWrite" elapsedTime="00:00:00.0023348">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_instances.sql</path>
+      <fileType>InstancesScript</fileType>
+      <size>294</size>
+    </event>
+    <event type="AddToGeneratedFiles" elapsedTime="00:00:00.0000748">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_instances.sql</path>
+    </event>
+    <event type="FileExecute" elapsedTime="00:00:00.4980827">
+      <path>C:\Users\HCA\documents\visual studio 2015\Projects\DigitalPicnik\DigitalPicnik.Persistence\DigitalPicnik_table_diffs.sql</path>
+      <fileType>TablesDiffScript</fileType>
+      <size>2224</size>
+    </event>
+    <event type="ProducerTerminate" elapsedTime="00:00:01.5531742">
+      <name>Business Object Model (BOM)</name>
+      <instance>CodeFluent.Model.Producer</instance>
+    </event>
+    <event type="ProducerTerminate" elapsedTime="00:00:00.0004261">
+      <name>SQL Azure</name>
+      <instance>CodeFluent.Model.Producer</instance>
+    </event>
+  </producer>
+</build>
